@@ -11,8 +11,9 @@
 
 ### Activity 2
 1. Typing game + Papers, Please-like + Resource management
-2. A document management game including typing mini-games. Players are asked to do a set of tasks that require resources. Once they finish, they must fight with other NPCs over office resources in a pool (kind of like hungry hungry hippo). They'll have a limited amount of time to grab resources (while also fighting other NPCs for them). Papers, Please-like in the way players will have to manage a bunch of documents, but there won't be NPCs that you're checking/comparing in that way (maybe, this idea is a bit nebulous right now). Kind of like being in hell but its a competitive office workspace. Particularly, I want mistakes to cost resources (ex. if you make a typo and have to delete, it takes up both ink and eraser resources). 
-3. [Planning drawing](https://docs.google.com/drawings/d/1FEoPs119xbTbxzRwz5_9L2jFhjPmUyWcokSxR4krJ34/edit?usp=sharing)
+2. A document management game including typing mini-games. Players are asked to do a set of tasks that require resources. Once they finish, they must fight with other NPCs over office resources in a pool (kind of like hungry hungry hippo). They'll have a limited amount of time to grab resources (while also fighting other NPCs for them). Papers, Please-like in the way players will have to manage a bunch of documents, but there won't be NPCs that you're checking/comparing in that way (maybe, this idea is a bit nebulous right now). Kind of like being in hell but its a competitive office workspace. Particularly, I want mistakes to cost resources (ex. if you make a typo and have to delete, it takes up both ink and eraser resources). Creepy/horror aesthetic, kind of like Dead Letter Dept., Buckshot Roulette, or No I'm Not Human. 
+   (maybe it'll be JUST the typing game, for scope sake).
+4. [Planning drawing](https://docs.google.com/drawings/d/1FEoPs119xbTbxzRwz5_9L2jFhjPmUyWcokSxR4krJ34/edit?usp=sharing)
 
 
 ## W2
