@@ -17,6 +17,8 @@
 
 
 ## W2
-Write your W2 Devlog here.
+activities :)
 
-Continue adding additional headers below this one for future weeks and future activities.
+## W3
+### Activity 1
+[Updated Planning Drawing](https://docs.google.com/drawings/d/1FEoPs119xbTbxzRwz5_9L2jFhjPmUyWcokSxR4krJ34/edit?usp=sharing)
