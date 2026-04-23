@@ -27,4 +27,13 @@ activities :)
 1. Saving the event name is advantageous because it'll reduce errors due to typos from needing to retype it several times.
 2. I used debug logs to track when the states were changing, and when interaction with the walrus is true/false. This helped me test if the transitions were working correctly (which they weren't at certain steps). Then I added more debug logs tied to the events that were supposed to trigger the events to check if those were firing (they were not). It helped me figure out that I wasn't correctly hooking up the gameobject to the trigger custom event node.
 3. Set Cursor Lock State is relevant to my project. Generally the cursor won't be locked (most of the game involves clicking on objects to interact with them), but when they're in the typing minigame, I want to lock it so the player doesnt have to worry about bumping their mouse or something.
-4. The concept of a game state is relevant to my vertical slice. It's going to have 2 different modes, the task completion part and the resource collection phase. The game manager will have to spawn and set up things related to both modes, as well as moving the camera and restricting what the player can do in either mode. 
+4. The concept of a game state is relevant to my vertical slice. It's going to have 2 different modes, the task completion part and the resource collection phase. The game manager will have to spawn and set up things related to both modes, as well as moving the camera and restricting what the player can do in either mode.
+
+
+## W4
+### Activity 1 Playtesting
+The main typing minigame is playable right now. Tasks will spawn in, and the player can complete tasks in a set order- once all tasks are "finished" (regardless if they're correct or not), gives out new tasks. 
+My playtesting goals is to see if there's any big issues with typing (in terms of accuracy)
+
+#### Playtesting Group
+Zoya McDonnell, Kristin Zhang, Andy Nguyen, Jacob Ho
