@@ -43,4 +43,11 @@ Zoya McDonnell, Kristin Zhang, Andy Nguyen, Jacob Ho
 - Some passages are probably too long ....
 - Also need a way to wrap text or have tasks spawn multiple pages 
 - The paper on the "typewriter" is angled so any overflow text disappears\
-- Brandon suggestion: maybe split up longer passages into sentences so this game doesnt explode people's ram 
+- Brandon suggestion: maybe split up longer passages into sentences so this game doesnt explode people's ram
+
+### Activity 2
+1. Yes, to a degree. It's not too bad to add new nodes and connect them to the existing scriptable objects. An issue may come up if you want a LOT of options because the ui becomes super cramped or bleeds off the screen. 
+2. 4 options
+3. The regenerate nodes option forces unity to run through the project and read through new scripts or imported libraries for possible nodes. It'll read up new functions that can be turned into nodes.
+
+im too hungry to do this bonus point sorry
