@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: reply 1
   m_EditorClassIdentifier: 
   Line: ur so fucking mean to me. you shut uyp.
-  ReplyOptions: []
+  ReplyOptions:
+  - line: sorry...
+    nextNode: {fileID: 11400000, guid: 423d895b53ca9374ca6d40ab42c28562, type: 2}
+  - line: double down
+    nextNode: {fileID: 11400000, guid: 6c0aa0fc58ef8ed4d8f79883f6d7bea7, type: 2}
+  - line: ...
+    nextNode: {fileID: 11400000, guid: e060222400a1ef340b218ecdcb8acba0, type: 2}
