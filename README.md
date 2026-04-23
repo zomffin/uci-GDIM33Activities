@@ -37,3 +37,10 @@ My playtesting goals is to see if there's any big issues with typing (in terms o
 
 #### Playtesting Group
 Zoya McDonnell, Kristin Zhang, Andy Nguyen, Jacob Ho
+
+#### Playtesting Notes
+- People don't quite understand how to get in and out of the typing mode
+- Some passages are probably too long ....
+- Also need a way to wrap text or have tasks spawn multiple pages 
+- The paper on the "typewriter" is angled so any overflow text disappears\
+- Brandon suggestion: maybe split up longer passages into sentences so this game doesnt explode people's ram 
