@@ -51,3 +51,26 @@ Zoya McDonnell, Kristin Zhang, Andy Nguyen, Jacob Ho
 3. The regenerate nodes option forces unity to run through the project and read through new scripts or imported libraries for possible nodes. It'll read up new functions that can be turned into nodes.
 
 im too hungry to do this bonus point sorry
+
+## W5
+### Activity 1, Steps
+Implementing a game over 
+
+
+**Simple** 
+
+Step 1: Detect game over
+Step 2: Pause the game and throw up new UI canvas 
+Step 3: Restart implementation 
+
+**Complex** 
+
+Step 1: Typing script triggers an event when ANY resource is down to 0, notifies gamemanager graph. Should have 1 arg for which resource ran out. Test with Debug.Logs.
+Step 2: Have the event pause all current activity and throw up a new UI canvas. 
+Step 3: Have game over UI show appropriate text
+3a: What resource ran out + what was left of other resources
+3b: New stat tracking, like tasks completed and overall accuracy
+Step 4: Have a button for restarting the game, use Debug.Log to see if it was pressed 
+Step 5: Have the button reload the scene 
+Step 6: Properly reset all values on reload (Debug.Logs to check) 
+
