@@ -81,4 +81,7 @@ Step 5: Have the button reload the scene
 
 Step 6: Properly reset all values on reload (Debug.Logs to check) 
 
+### Activity 2
+I was able to fully implement a game over screen with a restart button. It shows a unique "you ran out of..." message depending on which resource was depleted, as well as overall stats for all the resources + overall accuracy + completed tasks. 
+Next I wanna have the accuracy score reset during different phases of gameplay, so when you return to typing its a clean slate.
 
