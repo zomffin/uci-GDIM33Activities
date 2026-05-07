@@ -85,3 +85,11 @@ Step 6: Properly reset all values on reload (Debug.Logs to check)
 I was able to fully implement a game over screen with a restart button. It shows a unique "you ran out of..." message depending on which resource was depleted, as well as overall stats for all the resources + overall accuracy + completed tasks. 
 Next I wanna have the accuracy score reset during different phases of gameplay, so when you return to typing its a clean slate.
 
+
+## W6
+### Activity 1
+My playtest goal is mainly to see if there's any major bugs with game ending and the NPC. 
+What's new in the game... is the game end and the NPC. Also had some major bugs that probably existed in milestone 1 that are now fixed. 
+[New Link](https://zomffin.itch.io/33-milestone-2)
+
+
