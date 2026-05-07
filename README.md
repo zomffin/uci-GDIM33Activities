@@ -93,3 +93,8 @@ What's new in the game... is the game end and the NPC. Also had some major bugs 
 [New Link](https://zomffin.itch.io/33-milestone-2)
 
 
+### Activity 2
+1. Multiply makes things darker and less saturated because its multiplying the 2 vectors together, and the values are being multiplied by decimals, so the numbers are getting smaller. As the values approach 0, there's less of each color value, and it approaches black.
+2. It will be more transculent. 1 alpha means its opaque, 0 means its completely see through. Like above, the numbers are multiplied to be smaller and smaller, so they're getting more transculent.
+3. The shader gets the UV values from the mesh. The vertices in the mesh also store the UV values, so it's just directly taking it.
+4. Math is scary.... but colors are cool. Also I'm familiar with blending modes already because of using digital art programs, so I'm very excited to translate some of that knowledge.
