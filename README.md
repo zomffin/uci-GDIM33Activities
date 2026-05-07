@@ -88,9 +88,9 @@ Next I wanna have the accuracy score reset during different phases of gameplay, 
 
 ## W6
 ### Activity 1
-My playtest goal is mainly to see if there's any major bugs with game ending and the NPC. 
-What's new in the game... is the game end and the NPC. Also had some major bugs that probably existed in milestone 1 that are now fixed. 
-[New Link](https://zomffin.itch.io/33-milestone-2)
+1. What's new in the game... is the game end and the NPC. Also had some major bugs that probably existed in milestone 1 that are now fixed.
+2. [New Link](https://zomffin.itch.io/33-milestone-2)
+3. My playtest goal is mainly to see if there's any major bugs with game ending and the NPC.
 
 
 ### Activity 2
