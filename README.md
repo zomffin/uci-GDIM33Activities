@@ -98,3 +98,13 @@ Next I wanna have the accuracy score reset during different phases of gameplay, 
 2. It will be more transculent. 1 alpha means its opaque, 0 means its completely see through. Like above, the numbers are multiplied to be smaller and smaller, so they're getting more transculent.
 3. The shader gets the UV values from the mesh. The vertices in the mesh also store the UV values, so it's just directly taking it.
 4. Math is scary.... but colors are cool. Also I'm familiar with blending modes already because of using digital art programs, so I'm very excited to translate some of that knowledge.
+
+
+## W7
+1. The data for the Vertex Color node comes from the mesh.
+2. Because the colors are stored on each vertex, then the areas between the vertexes, the polygons, are blended between the vertexes. So if the color from vertex A is tan, and the vertex from B and C are white, then the areas between those would be a mix of tan and white.
+3. The textured shiba is more accurate because it's assigning specific color values per the UVs, which accounts for the full polygons. Vertex colors could be good for models that don't need very specific colors, or using the gradients/mixing on purpose.
+4. There's something wrong with it's left hindleg, theres roughly a polygon appearing wrong.
+5. You could check the UV values on the mesh and see if anything seems obviously displaced or disconnected to surrounding polygons. 
+6. It's the error we see in the normal debug shader.
+7. When it's alpha, it's not fully transparent but just a darker color. 
