@@ -110,7 +110,7 @@ Next I wanna have the accuracy score reset during different phases of gameplay, 
 7. When it's alpha, it's not fully transparent but just a darker color. 
 
 ## W8
-### Playtesting
+### Playtesting/Activity 1
 - There's now some difficulty scaling (you get more tasks as you complete rounds, and at specific rounds other NPCs become active and will compete for resources).
 - [New Link](https://zomffin.itch.io/33-milestone-3)
 - Playtesting goals is to see if the tutorial helps (haven't seen people play with tutorial), check for any bugs, and see if the difficulty scaling works (and if it breaks anything).
@@ -118,3 +118,10 @@ Next I wanna have the accuracy score reset during different phases of gameplay, 
 Notes: Tutorial lowkey doesn't work because people don't want to fully read it (and don't understand what the phrase they have to type is). 
 - There's a bug with task spawning- they're doubling up when it's not intended
 - Texture error with the player "hand"
+
+### Activity 2C
+1. It seems like there's a couple passes associated with the post-processing effect. FullScreenPassRendererFeature has the full strength effect, while Finalblit adds the transparency. I can tell because when I go through the passes, the effect first appears with FullScreenPassRendererfeature. As I step through, I can see the effect appear and change to its final form. 
+2. Lerp has a transparent version of the fullscreen effect. At 0, the game looks normal, and at 1, it's at full strength (like before we added the lerp).
+3. The screen looks like that because Lerp is combining the normal screen with the effect at different percentages. It's like setting the opacity of the effect, as it effects less and less as you approach 0.
+4. I checked out the effect with just time(sin), and I noticed it would make the screen more green. I realized this is because sin goes from -1 to 1, so -1 must have an opposite effect on the mixing (since green is the complementary to red?). By using (sin+1)/2, we first take out any instance of -1, and then by dividing it by 2, the range becomes 0 to 1 (the proper 0-100%). 
+
