@@ -108,3 +108,13 @@ Next I wanna have the accuracy score reset during different phases of gameplay, 
 5. You could check the UV values on the mesh and see if anything seems obviously displaced or disconnected to surrounding polygons. 
 6. It's the error we see in the normal debug shader.
 7. When it's alpha, it's not fully transparent but just a darker color. 
+
+## W8
+### Playtesting
+- There's now some difficulty scaling (you get more tasks as you complete rounds, and at specific rounds other NPCs become active and will compete for resources).
+- [New Link](https://zomffin.itch.io/33-milestone-3)
+- Playtesting goals is to see if the tutorial helps (haven't seen people play with tutorial), check for any bugs, and see if the difficulty scaling works (and if it breaks anything).
+
+Notes: Tutorial lowkey doesn't work because people don't want to fully read it (and don't understand what the phrase they have to type is). 
+- There's a bug with task spawning- they're doubling up when it's not intended
+- Texture error with the player "hand"
