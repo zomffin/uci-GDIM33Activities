@@ -126,6 +126,10 @@ Notes: Tutorial lowkey doesn't work because people don't want to fully read it (
 4. I checked out the effect with just time(sin), and I noticed it would make the screen more green. I realized this is because sin goes from -1 to 1, so -1 must have an opposite effect on the mixing (since green is the complementary to red?). By using (sin+1)/2, we first take out any instance of -1, and then by dividing it by 2, the range becomes 0 to 1 (the proper 0-100%). 
 
 ## W9
+### Activity 1
 We chose a game called Pyre by Supergiant Games. We were analyzing the dialogue box, anod how it transitions between spoken character dialogue to the narrator/exposition. The effect seems to be a renderer feature applied to specific items. There's a lighter white section of the dialogue box that can fade in and out (it's there for spoken dialogue), but in fades in a way similar to a paper burning (ie. not equal across the texture but instead near the edges and in spots in the middle). It's probably using some sort of texture/noise to guide the parts it starts the fading at, and goes through the grayscale. 
 
 I think it's an animation thats triggered, and also technically a layer on top of the "base" dialogue box. The animation is triggered at transition points in dialogue on click. If this were something like the dialogue nodes we've used in class/in 32, the node itself could have a bool indicating whether or not the node after/before it is a change from dialogue -> exposition or vice versa, and the script can trigger the animation based on it. 
+
+### Activity 2
+I didn't work on the shader or it's activation because I already finished that. However, I was having a building bug where the shader wasn't being built for WebGL, so I had to change some project settings to fix that. I also made a small bug fix for how tasks spawn (they were spawning more than once), as well as adding different NPC stats and more resources dropping as new NPCs spawn in. 
