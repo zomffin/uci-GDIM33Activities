@@ -148,4 +148,8 @@ Notes:
 - Make a high overview of the game, and slowly break down each part. Specifically by type (programming, art, audio, ui, etc.), then breaking down those down further into what will be needed for the high overview.
 - For programming, it's usually based off a goal: Ex. I want the player to be in first person and walk. Then you break that down into the systems necessary, while considering other possible factors. For example, I want first person but the player can pick things up: I'll have to consider how a raycast will interact with my system.
 - Also whenever I plan, I try to make multiple versions of my desired mechanics- an MVP version and a fully complete version. That way I can aim for MVP, but keep the complete version in mind when architecting my systems. 
-- One thing to keep in mind is that the initial plan will almost always miss something or change as work goes on, so adapting it for that is important. 
+- One thing to keep in mind is that the initial plan will almost always miss something or change as work goes on, so adapting it for that is important.
+- Planning and planning systems is when the scope is revealed.
+
+### Activity 3 
+I fixed a bug with the NPCs that made them delete a ton of items all at once. Also changed some logic to make sure they can't pick up more than one item at a time (was possible, not sure if I ever actually saw it happen, but now it shouldn't ever!). I needed to add a return statement when the NPC changed states... 
