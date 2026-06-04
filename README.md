@@ -132,4 +132,20 @@ We chose a game called Pyre by Supergiant Games. We were analyzing the dialogue 
 I think it's an animation thats triggered, and also technically a layer on top of the "base" dialogue box. The animation is triggered at transition points in dialogue on click. If this were something like the dialogue nodes we've used in class/in 32, the node itself could have a bool indicating whether or not the node after/before it is a change from dialogue -> exposition or vice versa, and the script can trigger the animation based on it. 
 
 ### Activity 2
-I didn't work on the shader or it's activation because I already finished that. However, I was having a building bug where the shader wasn't being built for WebGL, so I had to change some project settings to fix that. I also made a small bug fix for how tasks spawn (they were spawning more than once), as well as adding different NPC stats and more resources dropping as new NPCs spawn in. 
+I didn't work on the shader or it's activation because I already finished that. However, I was having a building bug where the shader wasn't being built for WebGL, so I had to change some project settings to fix that. I also made a small bug fix for how tasks spawn (they were spawning more than once), as well as adding different NPC stats and more resources dropping as new NPCs spawn in.
+
+## W10
+### Playtesting/Activity 1
+I added some models (that I had to make) for the game. I mainly want to test the colliders on them, especially for the resource part (the cardboard boxes). The colliders are a little hard to edit so there's probably some errors. 
+[New Link](https://zomffin.itch.io/final-33)
+
+Notes: 
+- In the first resource section, all the resources disappear after a couple seconds?
+- Some difficulty reading, should move cameras
+- Might need to lock or have a min for the y axis of the hand, people accidentally delete or lose items because of how the placement works
+
+### Activity 2 (Discussion) 
+- Make a high overview of the game, and slowly break down each part. Specifically by type (programming, art, audio, ui, etc.), then breaking down those down further into what will be needed for the high overview.
+- For programming, it's usually based off a goal: Ex. I want the player to be in first person and walk. Then you break that down into the systems necessary, while considering other possible factors. For example, I want first person but the player can pick things up: I'll have to consider how a raycast will interact with my system.
+- Also whenever I plan, I try to make multiple versions of my desired mechanics- an MVP version and a fully complete version. That way I can aim for MVP, but keep the complete version in mind when architecting my systems. 
+- One thing to keep in mind is that the initial plan will almost always miss something or change as work goes on, so adapting it for that is important. 
